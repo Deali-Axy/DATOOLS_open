@@ -1,0 +1,4 @@
+行 26: 控件 CommonDialog 的类 MSComDlg.CommonDialog 不是一个已加载的控件类。
+行 29: 属性名 _ExtentX 在 CommonDialog 中是无效的。
+行 30: 属性名 _ExtentY 在 CommonDialog 中是无效的。
+行 31: 属性名 _Version 在 CommonDialog 中是无效的。
