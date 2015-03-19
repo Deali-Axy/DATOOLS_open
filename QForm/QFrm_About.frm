@@ -197,6 +197,8 @@ Public Sub mLoadConfig()
     On Error GoTo Err
     If UIConfig.useBackPicture Then
         Set Me.Picture = UIConfig.AppBackPicture
+    Else
+        Set Me.Picture = Nothing
     End If
     Dim c As Control
     For Each c In Me.Controls

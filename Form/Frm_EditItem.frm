@@ -288,6 +288,8 @@ Private Sub mLoadConfig()
     Next
     If UIConfig.useBackPicture Then
         Set Me.Picture = UIConfig.AppBackPicture
+    Else
+        Set Me.Picture = Nothing
     End If
     Exit Sub
 Err:
